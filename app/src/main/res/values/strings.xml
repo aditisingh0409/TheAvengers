@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">The Avengers</string>
+    <string name="tony_stark">Tony Stark</string>
+    <string name="tony_email">tony@starkindustries.com</string>
+    <string name="tony_phone">+91 11155555</string>
+    <string name="steve_rogers">Steve Rogers</string>
+    <string name="steve_email">steve@starkindustries.com</string>
+    <string name="steve_phone">+91 22255555</string>
+    <string name="thor_odinson">Thor Odinson</string>
+    <string name="thor_email">thor@starkindustries.com</string>
+    <string name="thor_phone">+91 33355555</string>
+    <string name="natasha_romanoff">Natasha Romanoff</string>
+    <string name="nat_email">nat@starkindustries.com</string>
+    <string name="nat_phone">+91 44455555</string>
+    <string name="bruce_banner">Bruce Banner</string>
+    <string name="bruce_email">bruce@starkindustries.com</string>
+    <string name="bruce_phone">+91 55555555</string>
+    <string name="clint_barton">Clint Barton</string>
+    <string name="clint_email">clint@starkindustries.com</string>
+    <string name="clint_phone">+91 66655555</string>
+    <string name="name_min_3_characters">Name (Min. 3 Characters)</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_number_10_digits">Mobile Number (10 Digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_4_characters">Password (Min. 4 Characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">REGISTER</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_an_account">Don\'t have an account? Sign up now</string>
+    <string name="enter_your_registered_mobile">Enter your registered mobile number and email below :</string>
+    <string name="next">NEXT</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+    <string name="logout">LOGOUT</string>
+</resources>

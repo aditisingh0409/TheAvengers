@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTonyStark"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tony_stark"/>
+
+            <TextView
+                android:id="@+id/txtNameTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/tony_stark"
+                android:layout_toEndOf="@id/imgTonyStark"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtEmailTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/tony_email"
+                android:layout_toEndOf="@id/imgTonyStark"
+                android:textColor="#000000"
+                android:layout_below="@id/txtNameTS"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtPhoneNumTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/tony_phone"
+                android:layout_toEndOf="@id/imgTonyStark"
+                android:textColor="#000000"
+                android:layout_below="@id/txtEmailTS"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSteveRogers"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/captain_america"/>
+
+            <TextView
+                android:id="@+id/txtNameSR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/steve_rogers"
+                android:layout_toEndOf="@id/imgSteveRogers"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtEmailSR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/steve_email"
+                android:layout_toEndOf="@id/imgSteveRogers"
+                android:textColor="#000000"
+                android:layout_below="@id/txtNameSR"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtPhoneNumSR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/steve_phone"
+                android:layout_toEndOf="@id/imgSteveRogers"
+                android:textColor="#000000"
+                android:layout_below="@id/txtEmailSR"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgThor"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/thor"/>
+
+            <TextView
+                android:id="@+id/txtNameTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/thor_odinson"
+                android:layout_toEndOf="@id/imgThor"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtEmailTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/thor_email"
+                android:layout_toEndOf="@id/imgThor"
+                android:textColor="#000000"
+                android:layout_below="@id/txtNameTO"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtPhoneNumTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/thor_phone"
+                android:layout_toEndOf="@id/imgThor"
+                android:textColor="#000000"
+                android:layout_below="@id/txtEmailTO"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgNatasha"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/widow"/>
+
+            <TextView
+                android:id="@+id/txtNameNR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/natasha_romanoff"
+                android:layout_toEndOf="@id/imgNatasha"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtEmailNR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/nat_email"
+                android:layout_toEndOf="@id/imgNatasha"
+                android:textColor="#000000"
+                android:layout_below="@id/txtNameNR"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtPhoneNumNR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/nat_phone"
+                android:layout_toEndOf="@id/imgNatasha"
+                android:textColor="#000000"
+                android:layout_below="@id/txtEmailNR"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHulk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hulk"/>
+
+            <TextView
+                android:id="@+id/txtNameBB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/bruce_banner"
+                android:layout_toEndOf="@id/imgHulk"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtEmailBB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/bruce_email"
+                android:layout_toEndOf="@id/imgHulk"
+                android:textColor="#000000"
+                android:layout_below="@id/txtNameBB"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtPhoneNumBB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/bruce_phone"
+                android:layout_toEndOf="@id/imgHulk"
+                android:textColor="#000000"
+                android:layout_below="@id/txtEmailBB"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHawk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hawkeye"/>
+
+            <TextView
+                android:id="@+id/txtNameCB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/clint_barton"
+                android:layout_toEndOf="@id/imgHawk"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtEmailCB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/clint_email"
+                android:layout_toEndOf="@id/imgHawk"
+                android:textColor="#000000"
+                android:layout_below="@id/txtNameCB"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtPhoneNumTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/clint_phone"
+                android:layout_toEndOf="@id/imgHawk"
+                android:textColor="#000000"
+                android:layout_below="@id/txtEmailCB"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/maroon"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
